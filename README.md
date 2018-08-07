@@ -8,3 +8,5 @@
 
 #Data and figures in these files are presented in the following article:
 #Lowenstein, D.M. & Minor, E.S. Urban Ecosyst (2018) 21: 519. https://doi.org/10.1007/s11252-018-0738-x
+
+# All code analyzed in R Development Core 3.3.1
