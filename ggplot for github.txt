@@ -1,0 +1,223 @@
+### Natural enemies and pest abundance in urban agriculture
+
+library(plyr)
+library(Rmisc)
+library(ggplot2)
+
+#Load and attach file
+waspnoa <- read.table("natenemfig1.txt", header=T, sep="\t")
+attach(waspnoa)
+
+#Shorten column name
+Parasitoids = waspnoa$Parasitoidfromredo
+waspnot = cbind(waspnoa, Parasitoids)
+pd <- position_dodge(0.3)
+
+#Change to factor
+Datenumb <- as.factor(Datenum)
+
+
+#Figure for parasitoids
+tgd <- summarySE(waspnot, measurevar="Parasitoids", groupvars=c("Datenumb","Typea"))
+
+wiz = ggplot(tgd, aes(x=Datenumb, y=Parasitoids, colour=Typea, shape=Typea)) + 
+    geom_errorbar(aes(ymin=Parasitoids-se, ymax=Parasitoids+se), width=.1, position = pd) +
+    geom_line(position=pd, size = 1.2) +
+    geom_point(position=pd, size = 3.5)
+
+
+#Remove "Dates from x label" and change label sizes
+
+#remove background color, lines, add axis
+wiz1a = wiz +theme_bw() + theme(
+panel.grid.major=element_blank(), panel.grid.minor=element_blank())
+
+wiz1b = wiz1a + labs(x ="")+theme(axis.text.x =element_text(face="bold", size = 14, angle=0))
+
+wiz2 = wiz1b + theme(axis.text.y = element_text(face="bold", size=16))
+
+#Make colors colorblind-friendly
+wiz3 = wiz2 +scale_color_manual(values=c("black", "grey", "brown"))
+
+#increase y axis font size
+wiz4 = wiz3 + theme(axis.title.y=element_text(size=14)) 
+
+#Remove legend key
+wiz5 = wiz4 + theme(legend.title = element_blank())
+
+#Bold legend text
+wiz6 = wiz5 + theme(legend.text = element_text(size = 10, face = "bold"))
+
+#alternate option with legend at the top
+wiz6 = wiz5 + theme(legend.text = element_text(size = 14))+theme(legend.position="top")
+
+#Remove legend - will be relevant for multiplot figure
+wiz6p = wiz5 + theme(legend.position="none")
+
+
+######Figure for Aphid parasitoids
+
+ted <- summarySE(waspnoa, measurevar="stigma", groupvars=c("Datenumb","Typea"))
+
+wiza = ggplot(ted, aes(x=Datenumb, y=stigma, colour=Typea, shape=Typea)) + 
+    geom_errorbar(aes(ymin=stigma-se, ymax=stigma+se), width=.1, position = pd) +
+    geom_line(position=pd, size = 1.2) +
+    geom_point(position=pd, size = 3.5)
+
+wiz1a1 = wiza +theme_bw() + theme(
+panel.grid.major=element_blank(), panel.grid.minor=element_blank())
+
+wiz1b1 = wiz1a1 + labs(x ="", y="Aphid parasitoids")+theme(axis.text.x =element_text(face="bold", size = 14, angle=0))
+
+
+wiz21 = wiz1b1 + theme(axis.text.y = element_text(face="bold", size=16))
+#How to change line colors
+wiz31 = wiz21 +scale_color_manual(values=c("black", "grey", "brown"))
+wiz41 = wiz31 + theme(axis.title.y=element_text(size=14)) 
+wiz51 = wiz41 + theme(legend.title = element_blank())
+wiz61 = wiz51 + theme(legend.text = element_text(size = 10, face = "bold"))
+
+wiz61 = wiz51 + theme(legend.position="none")
+
+######Figure for Predators
+#Pool multiple columns of predators
+
+Predators = Dolich+Ladybeetle+Predwasp+Lacewing+Syrphid+Pirate
+waspnot1 = cbind(waspnoa, Predators)
+
+tge <- summarySE(waspnot1, measurevar="Predators", groupvars=c("Datenumb","Typea"))
+
+wizb = ggplot(tge, aes(x=Datenumb, y=Predators, colour=Typea, shape=Typea)) + 
+    geom_errorbar(aes(ymin=Predators-se, ymax=Predators+se), width=.1, position = pd) +
+    geom_line(position=pd, size = 1.2) +
+    geom_point(position=pd, size = 3.5)
+
+wiz1a2 = wizb +theme_bw() + theme(
+panel.grid.major=element_blank(), panel.grid.minor=element_blank())
+
+wiz1b2 = wiz1a2 + labs(x ="", y="Predators")+theme(axis.text.x =element_text(face="bold", size = 14, angle=0))
+
+wiz22 = wiz1b2 + theme(axis.text.y = element_text(face="bold", size=16))
+wiz32 = wiz22 +scale_color_manual(values=c("black", "grey", "brown"))
+wiz42 = wiz32 + theme(axis.title.y=element_text(size=14)) 
+wiz52 = wiz42 + theme(legend.title = element_blank())
+wiz62 = wiz52 + theme(legend.text = element_text(size = 10, face = "bold"))
+wiz623 = wiz52 + theme(legend.position="none")
+
+#Show all 3 graphs in 1 window
+multiplot(wiz6, wiz61, wiz623)
+
+# Add 2nd column to avoid stretching figures
+
+multiplot(wiz6p, wiz623, wiz61, cols=2)
+dev.off()
+
+###########Figures for Herbivores in urban agriculture
+
+pest <- read.table("fig1pest.txt", header=T, sep="\t")
+
+#Reorganize dates and scales (site types)
+Dates <- factor(pest$Date, levels=c("Jun. 16", "Jun. 30", "Jul. 14", "Jul. 28", "Aug. 11", "Aug. 26")) 
+Scale <- factor(pest$Scale, levels=c("Farm", "Community", "Residential")) 
+pest1 =cbind(pest, Dates)
+attach(pest1)
+
+Datenumb <- as.factor(Datee)
+
+tgf <- summarySE(pest1, measurevar="Larvae", groupvars=c("Datenumb","Scalea"))
+tgg <- summarySE(pest1, measurevar="Adult", groupvars=c("Datenumb","Scale"))
+tgh <- summarySE(pest1, measurevar="Aphid", groupvars=c("Datenumb","Scale"))
+tgi <- summarySE(pest1, measurevar="Defol", groupvars=c("Datenumb","Scale"))
+
+#Figure for cabbageworm Larvae - same changes as natural enemies
+
+wiz = ggplot(tgf, aes(x=Datenumb, y=Larvae, colour=Scalea, shape=Scalea)) + 
+    geom_errorbar(aes(ymin=Larvae-se, ymax=Larvae+se), width=.1, position = pd) +
+    geom_line(position=pd, size = 2.5) +
+    geom_point(position=pd, size = 3)
+
+wiz1a = wiz +theme_bw() + theme(
+panel.grid.major=element_blank(), panel.grid.minor=element_blank())
+wiz1b = wiz1a + labs(x ="")+theme(axis.text.x =element_text(face="bold", size = 14, angle=0))
+wiz2 = wiz1b + theme(axis.text.y = element_text(face="bold", size=16))
+wiz3 = wiz2 +scale_color_manual(values=c("black", "grey", "brown"))
+wiz4 = wiz3 + theme(axis.title.y=element_text(size=14)) 
+wiz5 = wiz4 + theme(legend.title = element_blank())
+wiz6 = wiz5 + theme(legend.text = element_text(size = 10, face = "bold"))
+wiz6 = wiz5 + theme(legend.text = element_text(size = 14))+theme(legend.position="top")
+
+#This figure will be relevant for multiplot
+wiz6l = wiz5 + theme(legend.text = element_text(size = 14))+theme(legend.position="none")
+
+#Figure for cabbageworm adults
+
+wizb = ggplot(tgg, aes(x=Datenumb, y=Adult, colour=Scale, shape=Scale)) + 
+    geom_errorbar(aes(ymin=Adult-se, ymax=Adult+se), width=.1, position = pd) +
+    geom_line(position=pd, size = 2.5) +
+    geom_point(position=pd, size = 3)
+wizb1a = wizb +theme_bw() + theme(
+panel.grid.major=element_blank(), panel.grid.minor=element_blank())
+wizb1b = wizb1a + labs(x ="", y="Adults")+theme(axis.text.x =element_text(face="bold", size = 14, angle=0))
+wizb2 = wizb1b + theme(axis.text.y = element_text(face="bold", size=16))
+wizb3 = wizb2 +scale_color_manual(values=c("black", "grey", "brown"))
+wizb4 = wizb3 + theme(axis.title.y=element_text(size=14)) 
+wizb5 = wizb4 + theme(legend.title = element_blank())
+wizb6 = wizb5 + theme(legend.text = element_text(size = 10, face = "bold"))
+#Remove legend
+wizb6 = wizb5 +theme(legend.position="none")
+
+
+#Defoliation
+
+wizc = ggplot(tgi, aes(x=Datenumb, y=Defol, colour=Scale, shape=Scale)) + 
+    geom_errorbar(aes(ymin=Defol-se, ymax=Defol+se), width=.1, position = pd) +
+    geom_line(position=pd, size = 2.5) +
+    geom_point(position=pd, size = 3)
+
+
+
+#Remove "Dates from x label" and change label sizes
+
+#remove background color, lines, add axis
+wizc1a = wizc +theme_bw() + theme(
+panel.grid.major=element_blank(), panel.grid.minor=element_blank())
+
+wizc1b = wizc1a + labs(x ="", y="% Defoliation")+theme(axis.text.x =element_text(face="bold", size = 14, angle=0))
+
+
+wizc2 = wizc1b + theme(axis.text.y = element_text(face="bold", size=16))
+#How to change line colors
+wizc3 = wizc2 +scale_color_manual(values=c("black", "grey", "brown"))
+wizc4 = wizc3 + theme(axis.title.y=element_text(size=14)) 
+wizc5 = wizc4 + theme(legend.title = element_blank())
+wizc6 = wizc5 + theme(legend.text = element_text(size = 10, face = "bold"))
+
+wizc6def = wizc5 +theme(legend.position="none")
+
+#Figure for Aphids
+
+wizd = ggplot(tgh, aes(x=Datenumb, y=Aphid, colour=Scale, shape=Scale)) + 
+    geom_errorbar(aes(ymin=Aphid-se, ymax=Aphid+se), width=.1, position = pd) +
+    geom_line(position=pd, size = 2.5) +
+    geom_point(position=pd, size = 3)
+
+#Remove "Dates from x label" and change label sizes
+
+#remove background color, lines, add axis
+wizd1a = wizd +theme_bw() + theme(
+panel.grid.major=element_blank(), panel.grid.minor=element_blank())
+
+wizd1b = wizd1a + labs(x ="", y="Aphids")+theme(axis.text.x =element_text(face="bold", size = 14, angle=0))
+
+
+wizd2 = wizd1b + theme(axis.text.y = element_text(face="bold", size=16))
+#How to change line colors
+wizd3 = wizd2 +scale_color_manual(values=c("black", "grey", "brown"))
+wizd4 = wizd3 + theme(axis.title.y=element_text(size=14)) 
+wizd5 = wizd4 + theme(legend.title = element_blank())
+wizd6 = wizd5 + theme(legend.text = element_text(size = 10, face = "bold"))
+
+wizd6 = wizd5 +theme(legend.position="none")
+
+#Multiplot
+multiplot(wiz6l, wizb6, wizc6def, wizd6, cols=2)

@@ -1,0 +1,141 @@
+Site	Area	Croprows	Brassicarows	Date	Datelet	Datenum	Sentinel	Type1	Typea	Total	Parasitoidfromredo	Onlyattackscw	Dolich	Ladybeetle	Predwasp	Lacewing	Syrphid	Pirate	Shannon	stigma
+7	96	25	12	Jun. 16	A	1	N	Community	Community garden	104	46	31	37	0	0	0	3	0	1.7005349	14
+10	166.86	14	6	Jun. 16	A	1	N	Community	Community garden	79	47	23	22	0	0	0	0	0	1.4770943	26
+11	36	7	3	Jun. 16	A	1	N	Community	Community garden	144	74	65	16	1	0	1	4	2	2.6070945	4
+14	528.6076	45	18	Jun. 16	A	1	N	Community	Community garden	75	39	25	34	0	0	0	3	0	1.7855969	6
+22	600	100	41	Jun. 16	A	1	N	Community	Community garden	99	84	76	7	0	1	2	6	4	2.5437089	1
+25	96	16	2	Jun. 16	A	1	N	Community	Community garden	115	57	45	52	1	6	0	3	0	1.9923662	8
+27	198	33	8	Jun. 16	A	1	N	Community	Community garden	86	52	39	19	2	4	0	0	0	2.1805792	4
+28	486	76	33	Jun. 16	A	1	N	Community	Community garden	50	28	23	18	2	3	0	1	0	1.8140524	3
+30	182.04	3	2	Jun. 16	A	1	N	Community	Community garden	73	59	32	29	2	0	0	5	2	1.997088	8
+7	96	25	12	Jun. 16	A	1	N	Community	Community garden	143	109	70	12	10	8	1	1	20	2.574497	14
+10	166.86	14	6	Jun. 16	A	1	N	Community	Community garden	138	93	66	6	12	29	0	4	10	2.586345	17
+2	4421.6	55	12	Jun. 16	A	1	N	Farm	Farm	189	122	39	38	1	0	1	4	0	1.7104667	88
+3	595	17	4	Jun. 16	A	1	N	Farm	Farm	105	25	18	80	0	0	0	1	0	1.129286	3
+4	3462	19	10	Jun. 16	A	1	N	Farm	Farm	150	158	118	9	4	0	0	0	1	1.4175431	37
+9	2606.1	10	2	Jun. 16	A	1	N	Farm	Farm	41	23	24	11	0	1	0	10	4	2.1915651	0
+16	3932.0807	64	20	Jun. 16	A	1	N	Farm	Farm	89	18	41	13	0	0	0	6	0	2.2555359	24
+18	405	20	6	Jun. 16	A	1	N	Farm	Farm	78	44	27	23	0	0	1	1	0	1.6447923	13
+23	71.68	11	5	Jun. 16	A	1	N	Farm	Farm	153	71	52	51	0	0	1	7	0	1.9929546	15
+24	1212.0009	28	6	Jun. 16	A	1	N	Farm	Farm	40	25	15	20	0	0	0	0	0	1.451199	11
+4	3462	19	10	Jun. 16	A	1	N	Farm	Farm	236	287	255	4	18	13	1	3	1	1.481233	29
+9	2606.1	10	2	Jun. 16	A	1	N	Farm	Farm	46	36	28	4	1	4	0	6	6	2.300766	4
+1	20	3	1	Jun. 16	A	1	N	Residential	Residential garden	48	7	14	22	0	0	0	7	0	1.3083921	1
+5	16.7	2	1	Jun. 16	A	1	N	Residential	Residential garden	295	253	236	24	0	0	0	0	0	2.005657	6
+6	21.92	6	1	Jun. 16	A	1	N	Residential	Residential garden	45	36	34	8	0	0	0	3	0	1.7106054	0
+8	5.54	2	1	Jun. 16	A	1	N	Residential	Residential garden	65	45	38	19	1	0	0	9	1	2.2372598	2
+12	15	2	2	Jun. 16	A	1	N	Residential	Residential garden	78	52	48	7	1	0	0	2	2	2.170319	3
+13	17.145	1	1	Jun. 16	A	1	N	Residential	Residential garden	59	70	47	0	1	0	0	1	2	2.3703256	6
+15	27.8616	1	1	Jun. 16	A	1	N	Residential	Residential garden	68	58	53	4	0	0	0	0	0	2.4547923	3
+17	15	3	1	Jun. 16	A	1	N	Residential	Residential garden	64	88	37	24	2	1	0	1	0	0.8225219	0
+19	42.96	5	3	Jun. 16	A	1	N	Residential	Residential garden	174	95	65	14	1	0	0	10	2	2.388456	13
+20	36.38	28	2	Jun. 16	A	1	N	Residential	Residential garden	63	29	27	22	0	0	0	0	0	1.8236553	2
+21	27	9	1	Jun. 16	A	1	N	Residential	Residential garden	47	28	31	7	0	0	1	1	0	1.5485232	1
+26	22.5	3	2	Jun. 16	A	1	N	Residential	Residential garden	120	83	53	10	0	0	2	3	8	2.3496562	11
+5	16.7	2	1	Jun. 16	A	1	N	Residential	Residential garden	323	555	424	10	2	1	0	43	9	2.041084	9
+6	21.92	6	1	Jun. 16	A	1	N	Residential	Residential garden	32	13	9	7	0	4	0	1	2	2.334762	3
+8	5.54	2	1	Jun. 16	A	1	N	Residential	Residential garden	76	43	30	9	0	18	0	0	11	2.463706	7
+11	36	7	3	Jun. 30	B	2	N	Community	Community garden	50	22	19	4	2	14	0	1	1	2.251965	2
+14	528.6076	45	18	Jun. 30	B	2	N	Community	Community garden	74	84	57	8	8	5	7	2	4	2.680958	14
+22	600	100	41	Jun. 30	B	2	N	Community	Community garden	167	87	81	3	4	19	0	4	10	2.689438	3
+25	96	16	2	Jun. 30	B	2	N	Community	Community garden	71	56	39	10	6	11	0	1	2	2.356439	15
+27	198	33	8	Jun. 30	B	2	N	Community	Community garden	132	58	39	19	11	9	1	3	14	2.459954	9
+28	486	76	33	Jun. 30	B	2	N	Community	Community garden	37	28	16	1	4	2	0	1	1	2.133741	2
+30	182.04	3	2	Jun. 30	B	2	N	Community	Community garden	107	58	36	23	1	3	0	6	12	2.362389	5
+2	4421.6	55	12	Jun. 30	B	2	N	Farm	Farm	228	264	91	17	2	10	3	0	1	1.999367	77
+16	3932.0807	64	20	Jun. 30	B	2	N	Farm	Farm	172	70	74	4	7	43	1	1	21	2.323444	8
+18	405	20	6	Jun. 30	B	2	N	Farm	Farm	55	41	48	15	0	0	0	0	0	1.608957	9
+23	71.68	11	5	Jun. 30	B	2	N	Farm	Farm	160	123	84	14	1	19	1	1	13	2.285339	20
+24	1212.0009	28	6	Jun. 30	B	2	N	Farm	Farm	151	156	74	14	5	22	0	2	1	2.194296	68
+1	20	3	1	Jun. 30	B	2	N	Residential	Residential garden	59	39	32	11	1	7	1	0	1	2.340752	2
+12	15	2	2	Jun. 30	B	2	N	Residential	Residential garden	67	58	48	0	2	12	0	1	0	2.051907	2
+13	17.145	1	1	Jun. 30	B	2	N	Residential	Residential garden	99	134	102	0	1	8	2	1	3	2.45497	14
+15	27.8616	1	1	Jun. 30	B	2	N	Residential	Residential garden	57	54	38	5	0	5	0	0	1	2.543888	5
+17	15	3	1	Jun. 30	B	2	N	Residential	Residential garden	117	46	71	12	3	4	1	0	11	2.139772	8
+19	42.96	5	3	Jun. 30	B	2	N	Residential	Residential garden	200	17	50	41	16	21	0	1	8	2.260791	5
+20	36.38	28	2	Jun. 30	B	2	N	Residential	Residential garden	164	117	72	17	1	22	0	1	23	2.554882	28
+21	27	9	1	Jun. 30	B	2	N	Residential	Residential garden	83	47	41	7	1	12	1	2	1	2.336691	7
+26	22.5	3	2	Jun. 30	B	2	N	Residential	Residential garden	160	79	46	15	0	10	3	4	54	2.256005	5
+7	96	25	12	Jul. 14	C	3	Y	Community	Community garden	141	110	66	8	3	13	3	2	3	2.549053	21
+11	36	7	3	Jul. 14	C	3	Y	Community	Community garden	61	48	34	5	3	3	0	9	1	2.099151	12
+22	600	100	41	Jul. 14	C	3	Y	Community	Community garden	236	151	72	15	11	11	1	4	22	2.667071	2
+25	96	16	2	Jul. 14	C	3	Y	Community	Community garden	119	116	64	27	7	34	0	1	0	2.434081	6
+27	198	33	8	Jul. 14	C	3	Y	Community	Community garden	93	54	31	10	3	6	2	0	43	2.242297	9
+28	486	76	33	Jul. 14	C	3	Y	Community	Community garden	160	134	100	9	4	6	0	4	11	2.365507	20
+30	182.04	3	2	Jul. 14	C	3	Y	Community	Community garden	199	99	61	31	0	6	2	3	32	2.436293	13
+2	4421.6	55	12	Jul. 14	C	3	Y	Farm	Farm	96	73	45	1	3	18	0	0	1	2.503894	5
+3	595	17	4	Jul. 14	C	3	Y	Farm	Farm	252	255	149	16	9	3	3	1	4	2.406851	26
+4	3462	19	10	Jul. 14	C	3	Y	Farm	Farm	181	120	101	13	31	13	1	1	6	2.02276	10
+9	2606.1	10	2	Jul. 14	C	3	Y	Farm	Farm	73	50	44	4	2	4	1	3	6	2.562393	2
+16	3932.0807	64	20	Jul. 14	C	3	Y	Farm	Farm	360	314	245	2	8	21	0	0	14	2.29784	16
+18	405	20	6	Jul. 14	C	3	Y	Farm	Farm	165	120	79	5	4	18	0	0	8	2.543979	14
+23	71.68	11	5	Jul. 14	C	3	Y	Farm	Farm	232	160	135	9	0	38	0	0	10	2.515527	10
+24	1212.0009	28	6	Jul. 14	C	3	Y	Farm	Farm	186	83	49	84	1	21	0	0	1	1.873178	28
+1	20	3	1	Jul. 14	C	3	Y	Residential	Residential garden	59	40	31	7	0	7	0	0	1	2.599555	1
+5	16.7	2	1	Jul. 14	C	3	Y	Residential	Residential garden	401	453	370	5	8	5	1	4	14	1.704108	0
+6	21.92	6	1	Jul. 14	C	3	Y	Residential	Residential garden	70	37	33	7	1	10	0	0	7	2.499879	5
+8	5.54	2	1	Jul. 14	C	3	Y	Residential	Residential garden	176	111	81	8	1	7	3	3	59	2.541119	7
+12	15	2	2	Jul. 14	C	3	Y	Residential	Residential garden	86	44	38	2	5	30	0	0	0	1.888836	4
+15	27.8616	1	1	Jul. 14	C	3	Y	Residential	Residential garden	42	26	18	0	0	5	0	0	1	2.333606	0
+17	15	3	1	Jul. 14	C	3	Y	Residential	Residential garden	208	161	124	10	1	2	8	0	37	2.435761	19
+19	42.96	5	3	Jul. 14	C	3	Y	Residential	Residential garden	307	117	86	12	25	45	1	2	22	2.537685	6
+20	36.38	28	2	Jul. 14	C	3	Y	Residential	Residential garden	206	156	97	22	3	15	2	1	8	2.709959	9
+21	27	9	1	Jul. 14	C	3	Y	Residential	Residential garden	120	55	47	10	0	30	0	0	0	2.281932	5
+26	22.5	3	2	Jul. 14	C	3	Y	Residential	Residential garden	356	136	66	29	1	15	1	3	129	2.049678	4
+7	96	25	12	Jul. 28	D	4	N	Community	Community garden	211	90	70	15	8	24	6	3	20	2.6715156	9
+10	166.86	14	6	Jul. 28	D	4	N	Community	Community garden	147	91	24	2	0	37	0	0	0	1.5886024	61
+11	36	7	3	Jul. 28	D	4	N	Community	Community garden	44	4	4	1	5	22	0	9	1	1.5964823	0
+14	528.6076	45	18	Jul. 28	D	4	N	Community	Community garden	250	125	94	63	7	49	2	0	7	2.5750223	10
+22	600	100	41	Jul. 28	D	4	N	Community	Community garden	198	170	103	10	13	14	2	0	3	2.441915	5
+25	96	16	2	Jul. 28	D	4	N	Community	Community garden	104	46	33	24	1	34	1	0	2	2.1901694	9
+27	198	33	8	Jul. 28	D	4	N	Community	Community garden	144	38	41	48	5	18	2	0	10	2.1107105	4
+28	486	76	33	Jul. 28	D	4	N	Community	Community garden	148	40	35	65	6	27	1	0	1	1.7778361	5
+30	182.04	3	2	Jul. 28	D	4	N	Community	Community garden	90	38	27	27	2	12	2	1	3	1.44206	0
+2	4421.6	55	12	Jul. 28	D	4	N	Farm	Farm	31	4	5	4	2	19	0	0	0	1.1492659	0
+3	595	17	4	Jul. 28	D	4	N	Farm	Farm	401	279	189	81	3	10	0	0	5	2.2905394	36
+4	3462	19	10	Jul. 28	D	4	N	Farm	Farm	18	105	92	1	2	15	0	0	0	0.5566469	0
+9	2606.1	10	2	Jul. 28	D	4	N	Farm	Farm	145	115	95	3	3	10	0	6	0	2.2997081	1
+16	3932.0807	64	20	Jul. 28	D	4	N	Farm	Farm	448	88	235	5	15	43	1	0	8	2.25217	17
+18	405	20	6	Jul. 28	D	4	N	Farm	Farm	172	84	65	29	1	42	1	0	5	2.2296572	14
+23	71.68	11	5	Jul. 28	D	4	N	Farm	Farm	256	149	107	31	3	48	0	1	3	2.3569036	34
+24	1212.0009	28	6	Jul. 28	D	4	N	Farm	Farm	249	127	69	103	2	24	3	1	0	1.9471871	27
+1	20	3	1	Jul. 28	D	4	N	Residential	Residential garden	52	15	13	9	0	22	0	0	0	1.7061274	1
+5	16.7	2	1	Jul. 28	D	4	N	Residential	Residential garden	451	467	386	37	4	14	5	0	17	2.1567793	1
+6	21.92	6	1	Jul. 28	D	4	N	Residential	Residential garden	86	43	33	11	1	21	2	1	3	2.5290677	7
+8	5.54	2	1	Jul. 28	D	4	N	Residential	Residential garden	153	154	103	16	0	9	0	1	18	2.6569565	21
+12	15	2	2	Jul. 28	D	4	N	Residential	Residential garden	61	13	8	0	2	35	1	0	0	1.3112266	7
+13	17.145	1	1	Jul. 28	D	4	N	Residential	Residential garden	149	106	69	3	3	22	5	0	4	2.5442108	20
+15	27.8616	1	1	Jul. 28	D	4	N	Residential	Residential garden	47	5	5	4	0	12	0	0	1	1.312328	0
+17	15	3	1	Jul. 28	D	4	N	Residential	Residential garden	260	211	164	25	3	8	1	0	11	2.4146695	17
+19	42.96	5	3	Jul. 28	D	4	N	Residential	Residential garden	350	58	99	42	11	70	2	3	10	2.4539567	5
+20	36.38	28	2	Jul. 28	D	4	N	Residential	Residential garden	139	33	22	33	5	56	1	2	2	2.0173838	0
+21	27	9	1	Jul. 28	D	4	N	Residential	Residential garden	80	22	19	1	0	60	0	0	0	1.2734349	2
+26	22.5	3	2	Jul. 28	D	4	N	Residential	Residential garden	268	172	93	14	6	29	4	0	19	2.5196876	12
+7	96	25	12	Aug. 11	E	5	Y	Community	Community garden	410	346	124	22	12	27	2	0	9	2.1107397	185
+10	166.86	14	6	Aug. 11	E	5	Y	Community	Community garden	606	716	169	3	11	36	4	1	0	1.6440898	263
+11	36	7	3	Aug. 11	E	5	Y	Community	Community garden	92	63	46	2	1	23	0	9	0	2.1413902	10
+14	528.6076	45	18	Aug. 11	E	5	Y	Community	Community garden	257	271	64	9	9	32	7	0	1	1.8795498	174
+22	600	100	41	Aug. 11	E	5	Y	Community	Community garden	236	148	101	44	8	21	1	1	0	2.4073499	24
+25	96	16	2	Aug. 11	E	5	Y	Community	Community garden	345	353	46	17	1	8	0	1	2	0.8815012	311
+27	198	33	8	Aug. 11	E	5	Y	Community	Community garden	153	103	61	5	7	18	1	2	4	2.3559421	32
+28	486	76	33	Aug. 11	E	5	Y	Community	Community garden	405	349	100	53	7	25	2	0	1	1.4305657	271
+30	182.04	3	2	Aug. 11	E	5	Y	Community	Community garden	153	82	51	33	2	23	0	0	1	2.205321	21
+2	4421.6	55	12	Aug. 11	E	5	Y	Farm	Farm	207	177	123	10	4	39	0	1	0	2.0103524	32
+3	595	17	4	Aug. 11	E	5	Y	Farm	Farm	356	332	266	9	7	16	1	0	1	2.0371158	43
+4	3462	19	10	Aug. 11	E	5	Y	Farm	Farm	241	124	43	35	33	50	2	0	2	1.9938261	70
+9	2606.1	10	2	Aug. 11	E	5	Y	Farm	Farm	455	141	280	10	2	16	2	7	9	2.4160938	122
+16	3932.0807	64	20	Aug. 11	E	5	Y	Farm	Farm	293	336	191	0	7	32	1	1	2	2.1230117	107
+18	405	20	6	Aug. 11	E	5	Y	Farm	Farm	352	371	147	13	7	28	9	0	5	1.9021971	239
+23	71.68	11	5	Aug. 11	E	5	Y	Farm	Farm	707	602	241	25	1	38	1	1	1	1.4461289	364
+24	1212.0009	28	6	Aug. 11	E	5	Y	Farm	Farm	855	962	151	82	7	23	28	3	1	1.2887719	754
+5	16.7	2	1	Aug. 11	E	5	Y	Residential	Residential garden	484	553	439	20	5	28	3	0	17	2.2519992	60
+6	21.92	6	1	Aug. 11	E	5	Y	Residential	Residential garden	186	138	51	11	3	30	3	1	5	1.9599625	84
+8	5.54	2	1	Aug. 11	E	5	Y	Residential	Residential garden	175	175	81	18	0	8	4	5	13	2.600589	27
+12	15	2	2	Aug. 11	E	5	Y	Residential	Residential garden	156	53	62	2	4	33	1	1	0	2.2094708	54
+13	17.145	1	1	Aug. 11	E	5	Y	Residential	Residential garden	487	350	103	10	4	9	12	1	0	1.1167805	472
+15	27.8616	1	1	Aug. 11	E	5	Y	Residential	Residential garden	93	43	21	3	0	13	0	0	0	1.809477	24
+17	15	3	1	Aug. 11	E	5	Y	Residential	Residential garden	575	563	227	20	21	6	19	0	5	1.9609779	297
+19	42.96	5	3	Aug. 11	E	5	Y	Residential	Residential garden	309	164	115	22	23	61	2	3	2	2.4381755	39
+20	36.38	28	2	Aug. 11	E	5	Y	Residential	Residential garden	281	197	124	25	3	44	5	1	5	2.4510653	52
+21	27	9	1	Aug. 11	E	5	Y	Residential	Residential garden	199	125	89	9	0	58	0	1	0	2.224621	14
+26	22.5	3	2	Aug. 11	E	5	Y	Residential	Residential garden	474	473	134	24	12	16	9	2	5	1.8603635	292
